@@ -305,7 +305,6 @@ border-radius: 999px;
     height: 100%;
     backface-visibility: hidden;
     border-radius: 50%;
-    /* якщо коло */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -329,4 +328,10 @@ font-family: "Tiro Tamil", sans-serif;
     text-align: center;
     color: #e6e6e9;
     transform: rotateY(180deg);
+}
+@media only screen and (min-width: 1440px) {
+.flip-wrapper {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
