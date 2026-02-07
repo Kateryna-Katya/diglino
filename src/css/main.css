@@ -400,3 +400,31 @@ font-family: "Tiro Tamil", sans-serif;
         margin-right: auto;
 }
 }
+/* Outcome Amplification */
+.outcome-wrapper{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 293px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+    .outcome-wrapper{
+        flex-direction: row;
+        padding: 8px 0px;
+            width: 900px;
+            height: 180px;
+            gap: 48px;
+    }
+    .outcome-text{
+        text-align: left;
+        line-height: 2.5;
+    }
+    .outcome-img{
+        width: 206px;
+            height: 164px;
+    }
+}
