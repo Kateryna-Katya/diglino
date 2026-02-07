@@ -90,3 +90,28 @@
         font-size: 16px;
     }
 }
+/* DISCLAIMER */
+.disclaimer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.disclaimer-title{
+    font-family: "Kumar One", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        color: #bcab7e;
+}
+.disclaimer-text{
+    font-size: 12px;
+}
+@media only screen and (min-width: 1440px) {
+.disclaimer-container{
+    padding-left: 274px;
+    padding-right: 249px;
+    flex-direction: row;
+    gap: 24px;
+}
+}
