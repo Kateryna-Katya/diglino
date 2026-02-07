@@ -17,7 +17,7 @@
 
     50% {
         transform: scale(1.02);
-        opacity: 0.9;
+        opacity: 1;
     }
 
     100% {
@@ -67,4 +67,26 @@
 }
 .home-text{
     font-size: 14px;
+}
+@media only screen and (min-width: 1440px) {
+    .home-section{
+        background-image: url("/img/hero/desk.png");
+    }
+    .home-container{
+      padding: 120px;
+      flex-direction: row;
+    }
+    .hero-logo{
+        margin-top: 0;
+    }
+    .home-wrapper{
+        width: 776px;
+            height: 244px;
+    }
+    .home-subtitle{
+        font-size: 40px;
+    }
+    .home-text{
+        font-size: 16px;
+    }
 }
