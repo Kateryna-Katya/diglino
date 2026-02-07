@@ -379,3 +379,24 @@ font-family: "Tiro Tamil", sans-serif;
     gap: 48px;
   }
 }
+/* Coin Flip Experience */
+.coin-text{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+.coin-text {
+        
+        margin-bottom: 40px;
+        width: 100%;
+    }
+.coin-img{
+    width: 1200px;
+        height: 605px;
+    margin-left: auto;
+        margin-right: auto;
+}
+}
