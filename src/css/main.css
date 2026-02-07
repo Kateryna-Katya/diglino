@@ -221,3 +221,39 @@ width: 323px;
     height: 24px;
 
 }
+@media only screen and (min-width: 1440px) {
+
+    .demo-wrapper {
+        margin: 24px auto 0;
+        height: 682px;
+    }
+
+    .game-img {
+        width: 942px;
+        height: 682px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .iframe-wrapper {
+        position: absolute;
+        top: 4%;
+        left: 46%;
+        transform: translateX(-48%);
+        width: 68%;
+        height: 54%;
+        z-index: 20;
+
+        /* 🔥 ГОЛОВНЕ ВИПРАВЛЕННЯ */
+        pointer-events: none;
+    }
+
+    #gameIframe {
+        width: 108%;
+        height: 170%;
+        border: none;
+        display: none;
+        background: #000;
+        border-radius: 30px;
+    }
+}
