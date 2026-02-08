@@ -520,3 +520,21 @@ color: #15151c;
     display: none;
 }
 }
+/* Closing Note */
+.closing-wrapper{
+    margin-top: 32px;
+width: 343px;
+    height: 488px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background-image: url("/img/closing/mob.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    padding: 110px 79px;
+}
+.closing-text{
+    font-size: 14px;
+}
