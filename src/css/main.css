@@ -512,3 +512,11 @@ font-family: "Tiro Tamil", sans-serif;
 .when-flip-card-back {
 color: #15151c;
 }
+@media only screen and (min-width: 1440px) {
+.when-text {
+     margin-bottom: 40px;
+}
+.mob{
+    display: none;
+}
+}
