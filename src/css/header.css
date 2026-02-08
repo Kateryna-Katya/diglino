@@ -51,40 +51,34 @@
 .menu-list {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
   align-items: center;
 }
 
 
 .menu-item {
   padding: 8px 0px;
-  width: 170px;
-  height: 34px;
-  font-family: "Sarabun", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #b2b1a3;
+width: 200px;
+  height: 39px;
   transition: all 0.2s ease;
 }
 
 .menu-item:hover,
 .menu-item:focus,
 .menu-item.active {
-  border-bottom: 1px solid #2d9ab3;
+  border-bottom: 1px solid #e5b541;
 }
 
 .header-policy-list {
-  margin-top: 40px;
+  margin-top: 80px;
   display: flex;
   gap: 16px;
   justify-content: center;
-  font-family: "Sarabun", sans-serif;
-  font-weight: 400;
   font-size: 12px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-align: center;
-  color: #b2b1a3;
+  color: #e6e6e9;
 }
 
 @media screen and (min-width: 1440px) {
@@ -110,26 +104,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 0px;
-    height: 32px;
-    font-family: "Sarabun", sans-serif;
-    font-weight: 275;
-    font-size: 12px;
-    color: #b2b1a3;
-    opacity: 0.6;
+    padding: 8px;
+    height: 33px;
+  font-size: 12px;
+  color: #e6e6e9;
+    opacity: 0.5;
     transition: all 0.3s ease-in-out;
   }
 
   .navigation-item:hover {
     opacity: 1;
-    font-weight: 400;
   }
 
   .navigation-item:focus,
   .navigation-item.active {
-    border-bottom: 1px solid #2d9ab3;
+  border-bottom: 1px solid #e5b541;
     opacity: 1;
-    font-weight: 400;
+
   }
 
 }
