@@ -534,7 +534,21 @@ width: 343px;
     background-position: top left;
     background-size: cover;
     padding: 110px 79px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .closing-text{
     font-size: 14px;
+}
+@media only screen and (min-width: 1440px) {
+.closing-wrapper{
+background-image: url("/img/closing/desk.png");
+width: 942px;
+    height: 632px;
+    margin-top: 24px;
+    padding: 171px 168px;
+}
+.closing-text {
+font-size: 20px;
+}
 }
