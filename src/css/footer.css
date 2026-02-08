@@ -18,3 +18,16 @@
 .footer-text{
   font-size: 12px;
 }
+@media only screen and (min-width: 1440px) {
+  .footer-container{
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .footer-wrapper{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .footer-navigation{
+    gap: 8px;
+  }
+}
